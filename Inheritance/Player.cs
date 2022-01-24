@@ -8,6 +8,11 @@ namespace Inheritance
 {
     class Player : GameCharacter
     {
+        public int lives;
 
+        public void UnitTest()
+        {
+
+        }
     }
 }

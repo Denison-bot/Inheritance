@@ -8,6 +8,9 @@ namespace Inheritance
 {
     class Enemy : GameCharacter
     {
+        public void UnitTest()
+        {
 
+        }
     }
 }

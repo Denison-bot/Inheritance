@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class GameCharacter
+    abstract class GameCharacter
     {
         public int health;
 

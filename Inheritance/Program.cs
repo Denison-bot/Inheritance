@@ -10,11 +10,15 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            UnitTest unitTest = new UnitTest();
+            unitTest.RunUnitTest();
+
             Console.WriteLine("Inheritance");
             Console.WriteLine();
 
             Player player = new Player();
             Enemy enemy = new Enemy();
+            //GameCharacter gameCharacter = new GameCharacter(); 
 
             player.health = 100;
             Console.WriteLine("player health: " + player.health);
